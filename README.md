@@ -33,7 +33,8 @@ pnpm dx
 ```bash
 pnpm create next-app --example https://github.com/trpc/trpc --example-path examples/next-prisma-starter trpc-prisma-starter
 cd trpc-prisma-starter
-pnpm
+pnpm install
+pnpm db-start
 pnpm dx
 ```
 
