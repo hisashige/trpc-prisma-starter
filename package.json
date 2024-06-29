@@ -4,6 +4,7 @@
   "scripts": {
     "generate": "prisma generate",
     "prisma-studio": "prisma studio",
+    "db-start": "chmod +x start-database.sh && ./start-database.sh",
     "db-seed": "prisma db seed",
     "db-reset": "prisma migrate dev reset",
     "dx:next": "run-s migrate-dev db-seed && next dev",
